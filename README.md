@@ -9,6 +9,10 @@ background-attachment:fixed|scroll|
 background-position:10px 20px;|20% 50%|50% 50%(居中)|center center(居中)|right(x轴上靠右，其他值默认center)|right 10px top 20px;
 
 background-repeat:no-repeat
+
+background-origin:默认是padding box
+
+background-clip:默认是border box
 --------------------------------------------------------------------------------------------------------------------------------------
 CSS布局
 
