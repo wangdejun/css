@@ -1,5 +1,16 @@
 # css
-CSS布局示例汇总
+------------------------------------------------------------------------
+背景
+
+background-image:url(sprite.png)  background-repeat:no-repeat  background-postion:1-100px;（可以实现sprite效果）
+
+background-attachment:fixed|scroll|
+
+background-position:10px 20px;|20% 50%|50% 50%(居中)|center center(居中)|right(x轴上靠右，其他值默认center)|right 10px top 20px;
+
+background-repeat:no-repeat
+--------------------------------------------------------------------------------------------------------------------------------------
+CSS布局
 
 块级显示，在文档流
 display:block|display:inline-block|display:none
@@ -12,3 +23,5 @@ float:两列布局，两列自适应布局
 
 灵活多列自适应布局：
 flex
+--------------------------------------------------------------------------------------------------------------------
+
