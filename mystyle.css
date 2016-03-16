@@ -4,19 +4,33 @@
 
 	.nav{width:100%;height:125px;background-color:white;}
 
-	.nav-top{width:100%;height:30px;background-color:#2c3339;/**#f8f8f8**/
+	.nav-top{width:100%;height:36px;background-color:#f8f8f8;/**#2c3339**/
 		margin:0;}
+	.nav-top-content{width:1205px;margin:auto;height:100%}
+	.info{float:left;font-family:Microsoft YaHei;height:12px;font-size:12px;font-color:white;margin-top:12px}
+	.info-link{margin-left:10px;font-color:green;}
   
+    .shutinfo{float: right;position:relative;}
+    .shutinfopic{
+    	position: absolute;
+    	left:-15px;top:-10px;
+    	margin-right:5px;margin:top:14px;
+    	width:12px;height:12px;
+    	background:transparent url(img/icon/icon.png) no-repeat;
+    	background-position: -58px -38px;
+    }
+
 	.navmain{display:block;width:1205px;height:96px; margin:auto; }
 
 	.logo{float:left;
 		font-family:Microsoft YaHei;font-weight:bolder;font-size:30px;color:#39a030;
 		vertical-align: middle;
 		height:35px;width:70px;margin-top:27px;}
+	.logosub{font-size:28px;margin-top: 25px;width:15px;}
 
 	.logotext{float:left;
 		font-family:Microsoft YaHei;font-size:28px;color:#333333;
-		vertical-align: middle;
+		vertical-align:left;
 		height:35px;margin-top:26px;}
 
 	.category{text-align:center;float:right;height:20px;width:700px;margin-top:38px;}
@@ -46,14 +60,21 @@
 	.product2{background-color:white;}
 	.product3{background-color:white;}
 
-	.producticon{border:0px;margin-top:0px;margin-left:0;display:inline-block;
+	.producticon{float:left;border:0px;margin-top:0px;margin-left:0;display:inline-block;
 		height:297px;width:107px;background-color:white;}
 
-    .productintro{display:inline-block;height:297px;width:281px;background-color:white;margin-left:0px;}
+    .productintro{float:left;display:inline-block;height:100%;width:281px;background-color:white;margin-left:0px;}
 
-    .productintrocontent{margin-top: 61px;height:173px;width:238px;
+    .productintrocontent{margin-top: 61px;height:100%px;width:238px;
     	margin-left: 8px;
-    	background-color: #f8e8e8;}
+    	background-color: #f8e8e8;
+    	font-family:Microsoft YaHei;;font-weight:lighter;font-size:14px;
+    	font-color:white;
+    	line-height:30px;
+    }
+
+    .productintrocontent h1{line-height: 2.5;}
+    .pcmore{color:#39a030;}
 	.producticonimg1{
 		border:0px;
 		margin-top:67px;margin-left:0px;
@@ -129,8 +150,40 @@
 		background-color: #2c3339;}
 
 	.footcontent{
-		display:inline-block;
-		margin:0 auto;
-		width:1205px;height:100%; }
+		margin:auto;
+		width:1205px;height:100%;}
+	.footerleft{
+		font-family:Microsoft YaHei;font-size:12px;font-color:white;
+		margin-top:70px;
+		float:left;
+		width:400px;margin-left:48px;
+		line-height:2;
+	}
+	.connect{float: right;margin-left:70px;}
+
+	.footerright{
+		margin-top:82px;
+		font-family:Microsoft YaHei;font-size:12px;font-color:white;
+		float:right;margin-right:200px;
+		line-height:2.2;
+	}
+
+	.infologo{display:inline-block;
+		font-family:Microsoft YaHei;
+		font-weight:bolder;font-size:20px;color:#39a030;}
+
+	.infologoEDU{font-size:25px;font-weight:bolder;margin-top:26px;}
+	.infologosub{font-size:22px;margin-top: 15px;width:15px;}
+	.infologotext{
+		font-family:Microsoft YaHei;font-size:20px;color:#39a030;
+		vertical-align:left;
+		height:35px;margin-top:20px;
+	}
+	.infotext p{
+		font-family:Microsoft YaHei;font-size:10px;color:white;
+		line-height: 1.5;
+	}
+
+	.connect{font-family:Microsoft YaHei;font-size:14px;color:white;}
 
 </style>
