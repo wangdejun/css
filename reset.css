@@ -19,7 +19,6 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun,colo
 body{background:#fff;}
 a,a:hover{color:#333}
 
-
 :-moz-placeholder{color:#ccc !important;}
 ::-moz-placeholder{color:#ccc !important;}
 :-ms-input-placeholder{color:#ccc !important;}
